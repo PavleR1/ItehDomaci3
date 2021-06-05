@@ -11,3 +11,19 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
+.collection-item.avatar.sold-out {
+  filter: saturate(15%);
+}
+
+.collection-item.avatar {
+  user-select: none;
+}
+
+form button {
+  width: 100px;
+  margin-top: 0.5em;
+}
+
+ul li a.active {
+  filter: invert(1);
+}
